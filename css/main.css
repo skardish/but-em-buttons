@@ -10,3 +10,35 @@ html {
 .banner-content {
   text-shadow: 1px 1px 25px rgba(255, 255, 255, .7);
 }
+
+.btn:hover,
+.btn:focus {
+  color: #b4fff4;
+  border-color: #90ccc3;
+  transition: all 250ms ease;
+  background-color: rgba(180, 255, 244, .2);
+}
+
+.icon {
+  transition: all 250ms ease;
+}
+
+.btn {
+  transition: all 250ms ease;
+  border-radius: 5px;
+}
+
+.btn:active {
+  top: 1.5em;
+  transform: translate(0, .25em);
+}
+
+.btn-ghost:hover .icon {
+  transform: translate(0, -.5em);
+}
+
+.btn-ghost {
+  color: #b4fff4;
+  border-color: #b4fff4;
+  transition: all 250ms ease;
+}
